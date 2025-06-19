@@ -1,0 +1,38 @@
+body {
+  background: linear-gradient(135deg, #ece9e6, #ffffff);
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Resaltar bordes de las celdas */
+.table {
+  border: 2px solid black; /* Bordes resaltados */
+}
+
+.table th,
+.table td {
+  border: 2px solid black; /* Bordes resaltados */
+}
+
+/* Centrar el input de búsqueda */
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Espacio debajo */
+}
+/* Centrar el cuadro de búsqueda de DataTables */
+.dataTables_filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Espacio debajo */
+}
+table.dataTable thead {
+  background-color: #198754;
+  color: white;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f2f2f2;
+}
+
+
