@@ -31,7 +31,7 @@ $(document).ready(function () {
       url: "listar_productos.php",
       type: "GET",
     },
-    pageLength: 5, // Establece el límite de 10 registros por página
+    pageLength: 10, // Establece el límite de 10 registros por página
     columns: [
       { data: "nombre" },
       { data: "descripcion" },
