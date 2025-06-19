@@ -38,8 +38,27 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+<style>
+    .logo-header {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  z-index: 1000;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+  border-radius: 20%;
+
+}
+</style>
 
 <body>
+
+<header class="logo-header">
+  <img src="img/logo.jpg" alt="Logo de la empresa" class="logo">
+</header>
 
     <div class="container mt-5">
         <h1 class="text-center display-4 fw-bold text-success">
