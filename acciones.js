@@ -7,22 +7,22 @@ $(document).ready(function () {
   $("#productosTable").DataTable({
     dom: '<"top"Bf><"bottom"l><"clear">rt<"row"<"col-md-6"i><"col-md-6 text-end"p>>',
   buttons: [
-    {
-      extend: 'excelHtml5',
-      text: '<i class="fas fa-file-excel"></i> Excel',
-      className: 'btn btn-success'
-    },
-    {
-      extend: 'pdfHtml5',
-      text: '<i class="fas fa-file-pdf"></i> PDF',
-      className: 'btn btn-danger'
-    },
-    {
-      extend: 'print',
-      text: '<i class="fas fa-print"></i> Imprimir',
-      className: 'btn btn-info'
-    }
-  ],
+  {
+    extend: 'excelHtml5',
+    text: '<i class="fas fa-file-excel" style="color:#1D6F42;"></i> <span style="color:#1D6F42;">Excel</span>',
+    className: 'btn btn-outline-light border border-success'
+  },
+  {
+    extend: 'pdfHtml5',
+    text: '<i class="fas fa-file-pdf" style="color:#C0392B;"></i> <span style="color:#C0392B;">PDF</span>',
+    className: 'btn btn-outline-light border border-danger'
+  },
+  {
+    extend: 'print',
+    text: '<i class="fas fa-print" style="color:#2C3E50;"></i> <span style="color:#2C3E50;">Imprimir</span>',
+    className: 'btn btn-outline-light border border-dark'
+  }
+],
 
     responsive: true,
     processing: true,
